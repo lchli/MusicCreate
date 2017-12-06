@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lch.app.MusicPathInputActivity">
+
+    <EditText
+        android:id="@+id/etFilePath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="输入文件路径"
+        android:inputType="textPersonName"
+        />
+
+    <Button
+        android:id="@+id/btUpload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="upload"
+        android:text="上传" />
+</LinearLayout>
